@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Bamazon.js",
+  "scripts": {
+    "mysql": "mysql -u root -p < Bamazon.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdannyb/Bamazon.git"
+  },
+  "author": "Danny B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdannyb/Bamazon/issues"
+  },
+  "homepage": "https://github.com/mrdannyb/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
